@@ -1,0 +1,169 @@
+
+nav{
+    background: azure;
+}
+
+.mar-top,
+.mar-bottom {
+    /* background: var(--slight-blue); */
+    background: white;
+    color: black;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    /* border-bottom: 1px solid var(--red); */
+    font-weight: 900;
+    display: none;
+}
+
+.navbar-container {
+    /* background: var(--slight-blue); */
+    background: white;
+}
+
+.navbar-container * {
+    /* color : var(--pure-white); */
+    color: black;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+
+.logo-text p {
+    margin: 0;
+}
+
+.logo-text hr {
+    margin: 0;
+}
+
+.navbar-brand img {
+    height: 70px;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.logo-bottom {
+    font-size: 15px;
+    text-align: center;
+}
+
+.logo-text {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.logo-bottom,
+.logo-upper {
+    color: #2F3293;
+}
+
+.mar-top {
+    border-bottom: 1px solid var(--mar-highlight);
+}
+
+.mar-bottom {
+    border-top: 1px solid var(--mar-highlight);
+}
+
+@media only screen and (max-width: 992px) {
+
+    .navbar-brand img {
+        height: 35px;
+        width: 70px;
+        margin: 0;
+        margin-right: 5px;
+    }
+
+    .logo-bottom {
+        font-size: 10px;
+    }
+
+
+    .logo-text {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .mar-bottom {
+        display: none;
+    }
+
+    .mar-top {
+        display: block;
+    }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .mar-top {
+        display: none;
+    }
+
+    .mar-bottom {
+        display: block;
+    }
+    .nav-flex-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* .navbar-right {
+    max-width: 750px;
+    padding: 20px;
+    font-size: 16px;
+} */
+
+.social-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.bi{
+    margin: 5px;
+    font-size: 15px;
+}
+
+.search-text{
+    outline: none;
+    border: none;
+    padding: 5px;
+    text-align: right;
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
+
+@media only screen and (max-width: 992px) {
+    .search-text{
+        text-align: left;
+        width: 80%;
+    }
+
+    .bi {
+        font-size: 20px;
+    }
+}
+
+.bi-facebook:hover{
+    color: #4267B2;
+}
+
+.bi-twitter:hover{
+    color: #1DA1F2;
+}
+
+.bi-linkedin:hover{
+    color:#0072b1;
+}
+
+.bi-instagram:hover{
+    color: #8a3ab9;
+}
