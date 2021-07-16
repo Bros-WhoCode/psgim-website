@@ -1,13 +1,18 @@
 import React from 'react'
+
+import Carousel from '../components/Carousel';
+
 import '../styles/Home.css'
+
 const Home = () => {
     return (
         <>
         <div className="home-container">
-            <div className="home-wrapper">
+            {/* <div className="home-wrapper">
               <p>Discover</p>
               <p>PSGIM.</p>
-            </div>
+            </div> */}
+            <Carousel></Carousel>
             <div className="home-menu">
               <p>MBA FT</p>
               <p>MBWM</p>

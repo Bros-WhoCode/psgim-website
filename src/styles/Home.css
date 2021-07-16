@@ -47,7 +47,7 @@
     border-radius: 10px;
     font-family: 'Oswald',
     sans-serif;
-
+    z-index: 5;
 }
 
 @media only screen and (min-width: 992px) {
