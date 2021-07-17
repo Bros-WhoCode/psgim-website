@@ -27,10 +27,21 @@
 }
 
 .home-menu {
-    display: flex;
-    padding: 0px 200px;
-    margin-top: -50px;
+
     background: #99badd;
+    height: 10%;
+    position: relative;
+
+}
+
+.home-menu-wrapper {
+
+    padding: 0px 200px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -50px;
 
 }
 
@@ -71,6 +82,10 @@
     .home-menu p {
         height: 70px;
         font-size: 15px;
+    }
+
+    .home-menu-wrapper {
+        padding: 0px 10px;
     }
 }
 

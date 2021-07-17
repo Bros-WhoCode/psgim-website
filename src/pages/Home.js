@@ -14,10 +14,12 @@ const Home = () => {
             </div> */}
             <Carousel></Carousel>
             <div className="home-menu">
-              <p>MBA FT</p>
-              <p>MBWM</p>
-              <p>PhD</p>
-              <p>PSGIAS Programs</p>
+                <div className="home-menu-wrapper">
+                    <p>MBA FT</p>
+                    <p>MBWM</p>
+                    <p>PhD</p>
+                    <p>PSGIAS Programs</p>
+                </div>
             </div>
         </div>
         <div className="home2-shadow-wrapper">
