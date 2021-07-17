@@ -4,6 +4,9 @@ import '../styles/Carousel.css';
 
 import Image1 from '../assets/img1.jpg';
 import Image2 from '../assets/img2.jpg';
+import Image3 from '../assets/c1.jpg';
+import Image4 from '../assets/c2.jpg';
+import Image5 from '../assets/c3.jpg';
 
 const Carousel = () => {
 
@@ -12,7 +15,13 @@ const Carousel = () => {
             image : Image1
         },
         {
-            image : Image2
+            image : Image3
+        },
+        {
+            image : Image4
+        },
+        {
+            image : Image5
         }
     ]
 
