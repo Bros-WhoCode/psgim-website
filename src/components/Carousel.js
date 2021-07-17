@@ -47,7 +47,7 @@ const Carousel = () => {
                 {sliderData.map((child, index) => {
                     return(
                         <div key={index} className={`carousel-slide ${activeIndex === index ? 'carousel-slide-active' : ''}`}>
-                            <div className="carousel-images">
+                            <div className={`carousel-images ${index % 2 === 0 ? 'opposite' : ''}`}>
 
                                 {[...Array(4).fill()].map((_, index) => {
                                     return (
