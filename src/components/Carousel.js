@@ -16,9 +16,9 @@ const CarouselElement = ({index}) => {
     switch(index) {
         case 0:
             return (
-                <div className="carousel-rankings-wrapper">
-                    <div className="carousel-rankings-title">
-                        <p>Rankings <br/>PSG IM</p>
+                <div className="carousel-rankings-wrapper carousel-wrapper">
+                    <div className="carousel-rankings-title carousel-title">
+                        <p>Rankings</p><p>PSGIM</p>
                     </div>
                     <div className="carousel-rankings">
                         <div className="carousel-rank">
@@ -29,17 +29,7 @@ const CarouselElement = ({index}) => {
                                 </div>
                             )}
                             </CountUp>
-                            India Today
-                        </div>
-                        <div className="carousel-rank">
-                        <CountUp start={1} end={42} delay={0}>
-                            {({ countUpRef }) => (
-                                <div>
-                                    <span ref={countUpRef} /><sup>th</sup>
-                                </div>
-                            )}
-                            </CountUp>
-                            The Week
+                            <p>India Today</p>
                         </div>
                         <div className="carousel-rank">
                         <CountUp start={1} end={46} delay={0}>
@@ -49,7 +39,17 @@ const CarouselElement = ({index}) => {
                                 </div>
                             )}
                             </CountUp>
-                            Business Today
+                            <p>NIRF - MHRD</p>
+                        </div>
+                        <div className="carousel-rank">
+                        <CountUp start={1} end={41} delay={0}>
+                            {({ countUpRef }) => (
+                                <div>
+                                    <span ref={countUpRef} /><sup>th</sup>
+                                </div>
+                            )}
+                            </CountUp>
+                            <p>Business Today</p>
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ const CarouselElement = ({index}) => {
 
         case 1:
             return (
-                <div className="carousel-discover-wrapper">
-                    <div className="carousel-discover-title">
+                <div className="carousel-discover-wrapper carousel-wrapper">
+                    <div className="carousel-discover-title carousel-title">
                         <p>Discover</p><p>PSGIM</p>
                     </div>
                     <div className="carousel-discover-content">
@@ -100,9 +100,9 @@ const Carousel = () => {
         //     clearInterval(intervalId);
         // }
 
-        nextSlide();
+        // nextSlide();
 
-    }, []);
+    });
 
     return (
         <div onClick={() => {}} className="carousel-container">

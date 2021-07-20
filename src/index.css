@@ -5,6 +5,16 @@
 }
 
 
+:root{
+    --blue-001: #002D62;
+    --blue-002: #0047AB;
+    --white-001: whitesmoke;
+    --white-002: #F0F8FF;
+    --green-001: #2e8b57;
+    --green-002: #60bd88;
+    --yellow-001: #d1e231;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -22,7 +32,7 @@ html, body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  height: 100vh;
+  min-height: 300vh;
   width: 100vw;
   background: whitesmoke;
 }
