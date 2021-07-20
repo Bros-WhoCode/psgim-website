@@ -59,7 +59,7 @@ const CarouselElement = ({index}) => {
             return (
                 <div className="carousel-discover-wrapper">
                     <div className="carousel-discover-title">
-                        <p>Discover <br/>PSG IM</p>
+                        <p>Discover</p><p>PSGIM</p>
                     </div>
                     <div className="carousel-discover-content">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas rem quisquam quis ea illum similique fugit enim dignissimos tempore et ipsam, laboriosam nemo quasi dolor laudantium quae nostrum sit asperiores esse! Mollitia delectus ipsam aperiam officia voluptatem, esse ex repudiandae est assumenda optio doloremque ea atque, fugit iusto qui nesciunt.</p>
