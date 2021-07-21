@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/psgim-website/static/css/main.8a55fcfd.chunk.css",
-    "main.js": "/psgim-website/static/js/main.4f688cdd.chunk.js",
-    "main.js.map": "/psgim-website/static/js/main.4f688cdd.chunk.js.map",
+    "main.css": "/psgim-website/static/css/main.53955d38.chunk.css",
+    "main.js": "/psgim-website/static/js/main.c042cdee.chunk.js",
+    "main.js.map": "/psgim-website/static/js/main.c042cdee.chunk.js.map",
     "runtime-main.js": "/psgim-website/static/js/runtime-main.f67cefa1.js",
     "runtime-main.js.map": "/psgim-website/static/js/runtime-main.f67cefa1.js.map",
     "static/js/2.da48be05.chunk.js": "/psgim-website/static/js/2.da48be05.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b3db4335.chunk.js": "/psgim-website/static/js/3.b3db4335.chunk.js",
     "static/js/3.b3db4335.chunk.js.map": "/psgim-website/static/js/3.b3db4335.chunk.js.map",
     "index.html": "/psgim-website/index.html",
-    "static/css/main.8a55fcfd.chunk.css.map": "/psgim-website/static/css/main.8a55fcfd.chunk.css.map",
+    "static/css/main.53955d38.chunk.css.map": "/psgim-website/static/css/main.53955d38.chunk.css.map",
     "static/js/2.da48be05.chunk.js.LICENSE.txt": "/psgim-website/static/js/2.da48be05.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/psgim-website/static/media/img2.e9b31d25.jpg",
     "static/media/c1.97bef283.jpg": "/psgim-website/static/media/c1.97bef283.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.f67cefa1.js",
     "static/js/2.da48be05.chunk.js",
-    "static/css/main.8a55fcfd.chunk.css",
-    "static/js/main.4f688cdd.chunk.js"
+    "static/css/main.53955d38.chunk.css",
+    "static/js/main.c042cdee.chunk.js"
   ]
 }
