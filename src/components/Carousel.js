@@ -23,31 +23,31 @@ const CarouselElement = ({index}) => {
                     <div className="carousel-rankings">
                         <div className="carousel-rank">
                             <CountUp start={1} end={40} delay={0}>
-                            {({ countUpRef }) => (
-                                <div>
-                                    <span ref={countUpRef} /><sup>th</sup>
-                                </div>
-                            )}
+                                {({ countUpRef }) => (
+                                    <div>
+                                        <span ref={countUpRef} /><sup>th</sup>
+                                    </div>
+                                )}
                             </CountUp>
                             <p>India Today</p>
                         </div>
                         <div className="carousel-rank">
-                        <CountUp start={1} end={46} delay={0}>
-                            {({ countUpRef }) => (
-                                <div>
-                                    <span ref={countUpRef} /><sup>th</sup>
-                                </div>
-                            )}
+                            <CountUp start={1} end={46} delay={0}>
+                                {({ countUpRef }) => (
+                                    <div>
+                                        <span ref={countUpRef} /><sup>th</sup>
+                                    </div>
+                                )}
                             </CountUp>
                             <p>NIRF - MHRD</p>
                         </div>
                         <div className="carousel-rank">
-                        <CountUp start={1} end={41} delay={0}>
-                            {({ countUpRef }) => (
-                                <div>
-                                    <span ref={countUpRef} /><sup>th</sup>
-                                </div>
-                            )}
+                            <CountUp start={1} end={41} delay={0}>
+                                {({ countUpRef }) => (
+                                    <div>
+                                        <span ref={countUpRef} /><sup>th</sup>
+                                    </div>
+                                )}
                             </CountUp>
                             <p>Business Today</p>
                         </div>
