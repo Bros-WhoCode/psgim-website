@@ -97,8 +97,7 @@
 
 .home-welcome-container{
     width: 100vw;
-    padding: 10px 30px;
-    padding-top: 40px;
+    padding: 40px 30px 40px 30px;
     display: flex;
     background: url('../assets/bg1.jpg'), linear-gradient(to bottom, whitesmoke 30%, rgba(245, 245, 245, .7) 100%);
     background-size: cover;
@@ -207,4 +206,20 @@
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     width: 80%;
+}
+
+@media only screen and (max-width: 992px) {
+    .wwr-wrapper{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .wwr-content{
+        margin-bottom: 10px;
+    }
+
+    .wwr-para{
+        font-size: 20px;
+    }
 }

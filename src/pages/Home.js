@@ -67,6 +67,31 @@ const Home = () => {
                      </div>
                 </div>
             </div>
+            <div className="updates-container">
+                <div className="updates-title">Updates</div>
+                <div className="updates-wrapper">
+                    <div className="updates-content">
+                        <img src="" alt="" className="updates-img" />
+                        <h2 className="updates-head"></h2>
+                        <p className="updates-para"></p>
+                    </div>
+                    <div className="updates-content">
+                        <img src="" alt="" className="updates-img" />
+                        <h2 className="updates-head"></h2>
+                        <p className="updates-para"></p>
+                    </div>
+                    <div className="updates-content">
+                        <img src="" alt="" className="updates-img" />
+                        <h2 className="updates-head"></h2>
+                        <p className="updates-para"></p>
+                    </div>
+                    <div className="updates-content">
+                        <img src="" alt="" className="updates-img" />
+                        <h2 className="updates-head"></h2>
+                        <p className="updates-para"></p>
+                    </div>
+                </div>
+            </div>
         </div>
         </React.Fragment>
     )

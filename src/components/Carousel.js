@@ -75,8 +75,8 @@ const CarouselElement = ({index}) => {
 
 const Carousel = () => {
 
-    const sliderData = [Image1, Image2, Image3, Image4];
-
+    // const sliderData = [Image1, Image2, Image3, Image4];
+    const sliderData = [Image1, Image2];
     const length = sliderData.length;
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -94,11 +94,11 @@ const Carousel = () => {
 
     useEffect(() => {
 
-        // const intervalId = setInterval(nextSlide, 5000);
+        const intervalId = setInterval(nextSlide, 5000);
 
-        // return () => {
-        //     clearInterval(intervalId);
-        // }
+        return () => {
+            clearInterval(intervalId);
+        }
 
         // nextSlide();
 
