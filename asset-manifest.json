@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/psgim-website/static/css/main.8a55fcfd.chunk.css",
+    "main.js": "/psgim-website/static/js/main.4f688cdd.chunk.js",
+    "main.js.map": "/psgim-website/static/js/main.4f688cdd.chunk.js.map",
+    "runtime-main.js": "/psgim-website/static/js/runtime-main.f67cefa1.js",
+    "runtime-main.js.map": "/psgim-website/static/js/runtime-main.f67cefa1.js.map",
+    "static/js/2.da48be05.chunk.js": "/psgim-website/static/js/2.da48be05.chunk.js",
+    "static/js/2.da48be05.chunk.js.map": "/psgim-website/static/js/2.da48be05.chunk.js.map",
+    "static/js/3.b3db4335.chunk.js": "/psgim-website/static/js/3.b3db4335.chunk.js",
+    "static/js/3.b3db4335.chunk.js.map": "/psgim-website/static/js/3.b3db4335.chunk.js.map",
+    "index.html": "/psgim-website/index.html",
+    "static/css/main.8a55fcfd.chunk.css.map": "/psgim-website/static/css/main.8a55fcfd.chunk.css.map",
+    "static/js/2.da48be05.chunk.js.LICENSE.txt": "/psgim-website/static/js/2.da48be05.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/psgim-website/static/media/img2.e9b31d25.jpg",
+    "static/media/c1.97bef283.jpg": "/psgim-website/static/media/c1.97bef283.jpg",
+    "static/media/c2.92372319.jpg": "/psgim-website/static/media/c2.92372319.jpg",
+    "static/media/c3.3687677a.jpg": "/psgim-website/static/media/c3.3687677a.jpg",
+    "static/media/dnalogo.aeaee512.png": "/psgim-website/static/media/dnalogo.aeaee512.png",
+    "static/media/img1.3201ff90.jpg": "/psgim-website/static/media/img1.3201ff90.jpg",
+    "static/media/km3.55fbd2c0.jpg": "/psgim-website/static/media/km3.55fbd2c0.jpg",
+    "static/media/legacylogo.6f3116fc.png": "/psgim-website/static/media/legacylogo.6f3116fc.png",
+    "static/media/missionlogo.e052d148.png": "/psgim-website/static/media/missionlogo.e052d148.png",
+    "static/media/psgim_logo.0b52de6d.png": "/psgim-website/static/media/psgim_logo.0b52de6d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f67cefa1.js",
+    "static/js/2.da48be05.chunk.js",
+    "static/css/main.8a55fcfd.chunk.css",
+    "static/js/main.4f688cdd.chunk.js"
+  ]
+}
