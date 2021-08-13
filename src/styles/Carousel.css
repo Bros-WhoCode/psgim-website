@@ -215,7 +215,7 @@
 .carousel-slide-active .carousel-content-container {
 
     opacity: 1;
-    transition: opacity 300ms ease-in-out 250ms;
+    transition: opacity 300ms ease-in-out 850ms;
 
 }
 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .home-container {
-    height: 85vh;
+    height: 95vh;
     width: 100%;
 }
 
@@ -30,7 +30,7 @@
 /* -------------------------------------------------------------------------------------- */
 
 .home-menu {
-    margin-top: -100px;
+    margin-top: -200px;
     position: relative;
     z-index: 5;
 }

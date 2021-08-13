@@ -94,13 +94,11 @@ const Carousel = () => {
 
     useEffect(() => {
 
-        const intervalId = setInterval(nextSlide, 5000);
+        const intervalId = setInterval(nextSlide, 5500);
 
         return () => {
             clearInterval(intervalId);
         }
-
-        // nextSlide();
 
     });
 
@@ -121,9 +119,9 @@ const Carousel = () => {
                                 })}
 
                             </div>
-                            {activeIndex === index && <div className="carousel-content-container">
+                            <div className="carousel-content-container">
                                 <CarouselElement index={index}/>
-                            </div>}
+                            </div>
                         </div>
                     );
 
