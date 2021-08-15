@@ -9,7 +9,6 @@ import Image2 from '../assets/img2.jpg';
 // import Image3 from '../assets/c1.jpg';
 // import Image4 from '../assets/c2.jpg';
 // import Image5 from '../assets/c3.jpg';
-// 
 
 const CarouselElement = ({index}) => {
 
@@ -105,8 +104,11 @@ const Carousel = () => {
     return (
         <div onClick={() => {}} className="carousel-container">
             <div className="carousel-slides">
+
                 {sliderData.map((child, index) => {
+
                     return(
+
                         <div key={index} className={`carousel-slide ${activeIndex === index ? 'carousel-slide-active' : ''}`}>
                             <div className={`carousel-images ${index % 2 === 0 ? 'opposite' : ''}`}>
 
@@ -123,9 +125,11 @@ const Carousel = () => {
                                 <CarouselElement index={index}/>
                             </div>
                         </div>
+
                     );
 
                 })}
+
             </div>
         </div>
     );

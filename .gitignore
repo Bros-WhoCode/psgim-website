@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# our_domain_of_files_to_be_ignored
+css_build/

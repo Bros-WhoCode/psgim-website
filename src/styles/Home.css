@@ -54,6 +54,7 @@
 
 .home-menu-wrapper {
     /* -webkit-filter: drop-shadow(7px 5px 0px var(--blue-001)); */
+    height: 100px;
     filter: drop-shadow(7px 5px 0px var(--blue-001));
     display: -webkit-flex;
     display: flex;
@@ -68,20 +69,49 @@
     background: var(--blue-001);
 }
 
-.home-menu p {
-    height: 100px;
-    -webkit-flex: 1;
-            flex: 1;
-    display: -webkit-flex;
+.home-menu-programs {
+
+    background: none;
+    border: none;
+    flex: 1;
     display: flex;
-    -webkit-align-items: center;
-            align-items: center;
-    -webkit-justify-content: center;
-            justify-content: center;
+    justify-content: center;
+
+}
+
+.home-menu-programs p {
+
     font-size: 27px;
     font-family: var(--oswald-font);
     text-align: center;
     z-index: 5;
+    width: fit-content;
+    position: relative;
+
+}
+
+.home-menu-programs p::before {
+
+    content: '';
+    position: absolute;
+    bottom: -10px;
+
+    transform-origin: 50% 0%;
+
+    height: 3px;
+    width: 100%;
+    background: var(--blue-001);
+    
+    transform: scaleX(0);
+    transition: transform 100ms ease-in;
+
+}
+
+.home-menu-programs p:hover::before, .home-menu-programs p:focus::before {
+
+    transform: scaleX(0.85);
+    transition: transform 150ms ease-out;
+
 }
 
 

@@ -11,13 +11,13 @@ const Home = () => {
                 <div className="home-menu-bg-wrapper">
                     <div className="home-menu-title">What are you looking for?</div>
                     <div className="home-menu-wrapper">
-                        <p>MBA FT</p>
+                        <button className="home-menu-programs"><p>MBA FT</p></button>
                         <span></span>
-                        <p>MBWM</p>
+                        <button className="home-menu-programs"><p>MBWM</p></button>
                         <span></span>
-                        <p>PhD</p>
+                        <button className="home-menu-programs"><p>PhD</p></button>
                         <span></span>
-                        <p>PSGIAS Programs</p>
+                        <button className="home-menu-programs"><p>PSGIAS Programs</p></button>
                     </div>
                 </div>
             </div>
