@@ -233,7 +233,7 @@
 
 .carousel-title{
     text-shadow: 5px 5px 0px var(--blue-001);
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--oswald-font);
 }
 
 .carousel-title p:first-child {
@@ -262,7 +262,7 @@ sup{
     font-size: 70px;
     font-weight: bold;
     text-shadow: 5px 5px 0px var(--blue-001);
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--oswald-font);
 }
 
 .carousel-rank div p {

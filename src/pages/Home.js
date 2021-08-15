@@ -1,12 +1,7 @@
 import React from 'react'
 
 import Carousel from '../components/Carousel';
-import welcomeImg from '../assets/km3.jpg';
 import '../styles/Home.css'
-import LegacyLogo from '../assets/legacylogo.png';
-import DNALogo from '../assets/dnalogo.png';
-import MissionLogo from '../assets/missionlogo.png';
-import MilestoneLogo from '../assets/milestonelogo.png';
 const Home = () => {
     return (
         <React.Fragment>
@@ -26,70 +21,27 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="home-welcome-container">
-                <div className="home-welcome-content-wrapper">
-                    <div className="home-welcome-title">
-                        <p>Welcome to PSGIM</p>
-                    </div>
-                    <div className="home-welcome-content">
-                        <p>PSG Institute of Management is a proud member of the PSG and Sons’ Charity-  a unique educational trust. 
-                        </p>
-                        <p>
-                            Nine years before an independent India emerged, this thought-seed was planted to further the cause of education and the first polytechnic was started under the aegis of the trust. That was the beginning and the acorn today is a magnificent oak tree of excellence in education and training.
+           
+            <div className="legacy-container">
+                <div className="legacy-title">
+                    Our Legacy
+                </div>
+                <div className="legacy-wrapper">
+                        <div className="legacy-content">
+                          &emsp;&emsp;&emsp;PSG Institute of Management is a proud member of the PSG and Sons’ Charity- a unique educational trust. 
+                        </div>
+                        <div className="legacy-quote">
+                            “Let there be charity, so that other people can share my family’s prosperity”
+                        </div>
+                        <div className="legacy-content">
+                            were the inspiring words from Shri P. S. Govindaswamy Naidu who laid the foundation for one of the most respected charitable trusts in the country.  
+                        </div>
+                        <div className="legacy-content">
+                            &emsp;&emsp;&emsp;PSG Institute of Management was started as the Department of Management Sciences under the PSG College of Technology in the year 1964 to cater to the ever growing need of management graduates in this region which witnessed an industrial and entrepreneurial leap of faith that continues till today. The Department was granted the 'autonomous status' by the University of Madras and the University Grants Commission (UGC) in 1978 and metamorphosed into a full-fledged institute known as the PSG Institute of Management in 1994.
+                        </div>   
+                </div>
+                <div className="legacy-knowmore">
 
-                        </p>
-                    </div>
-                </div>
-                <div className="home-welcome-img">
-                    <img src={welcomeImg} alt="Welcome to PSGIM" />
-                </div>
-            </div>
-            <div className="wwr-container">
-                <div className="wwr-title">
-                    Who We Are
-                </div>
-                <div className="wwr-wrapper">
-                     <div className="wwr-content">
-                         <img src={LegacyLogo} alt="" className="wwr-logo" />
-                         <p className="wwr-para">Our Legacy</p>
-                     </div>
-                     <div className="wwr-content">
-                         <img src={DNALogo} alt="" className="wwr-logo" />
-                         <p className="wwr-para">Our DNA</p>
-                     </div>
-                     <div className="wwr-content">
-                         <img src={MissionLogo} alt="" className="wwr-logo" />
-                         <p className="wwr-para">Our Vision, Mission and Values</p>
-                     </div>
-                     <div className="wwr-content">
-                         <img src={MilestoneLogo} alt="" className="wwr-logo" />
-                         <p className="wwr-para">Our Keys and Milestones</p>
-                     </div>
-                </div>
-            </div>
-            <div className="updates-container">
-                <div className="updates-title">Updates</div>
-                <div className="updates-wrapper">
-                    <div className="updates-content">
-                        <img src="" alt="" className="updates-img" />
-                        <h2 className="updates-head"></h2>
-                        <p className="updates-para"></p>
-                    </div>
-                    <div className="updates-content">
-                        <img src="" alt="" className="updates-img" />
-                        <h2 className="updates-head"></h2>
-                        <p className="updates-para"></p>
-                    </div>
-                    <div className="updates-content">
-                        <img src="" alt="" className="updates-img" />
-                        <h2 className="updates-head"></h2>
-                        <p className="updates-para"></p>
-                    </div>
-                    <div className="updates-content">
-                        <img src="" alt="" className="updates-img" />
-                        <h2 className="updates-head"></h2>
-                        <p className="updates-para"></p>
-                    </div>
                 </div>
             </div>
         </div>

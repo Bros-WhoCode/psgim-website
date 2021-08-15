@@ -1,6 +1,5 @@
 import React from 'react'
 import NavLink from './NavLink';
-import Marquee from './Marquee';
 import Logo from '../assets/psgim_logo.png'
 import '../styles/Nav.css';
 
@@ -42,7 +41,7 @@ const Nav = () => {
       <nav className="navbar-container navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src={Logo} />
+            <img src={Logo} alt="Logo" />
             {/* <div className="logo-text">
               <p className="logo-upper">PSG Institute of Management</p>
               <hr />

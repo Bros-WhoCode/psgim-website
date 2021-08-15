@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Marquee = ({className, behavior, direction, text, scrollamt}) => {
 
-    const [_text, setText] = useState(text);
+    const [_text, ] = useState(text);
     const [_scrollamt, setScrollamt] = useState(scrollamt);
 
     return (
@@ -13,11 +13,11 @@ const Marquee = ({className, behavior, direction, text, scrollamt}) => {
             onMouseLeave={(e) => {setScrollamt(scrollamt);}}
             className={className}
         >
-            <marquee 
+            {/* <marquee 
                 behavior={behavior} 
                 direction={direction}
                 scrollamount={`${_scrollamt}`}
-            >{_text}</marquee>
+            >{_text}</marquee> */}
         </div>
     );
 }
