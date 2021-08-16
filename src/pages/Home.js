@@ -7,21 +7,6 @@ const Home = () => {
         <React.Fragment>
         <div className="home-container">
             <Carousel></Carousel>
-            <div className="home-menu">
-                <div className="home-menu-bg-wrapper">
-                    <div className="home-menu-title">What are you looking for?</div>
-                    <div className="home-menu-wrapper">
-                        <button className="home-menu-programs"><p>MBA FT</p></button>
-                        <span></span>
-                        <button className="home-menu-programs"><p>MBWM</p></button>
-                        <span></span>
-                        <button className="home-menu-programs"><p>PhD</p></button>
-                        <span></span>
-                        <button className="home-menu-programs"><p>PSGIAS Programs</p></button>
-                    </div>
-                </div>
-            </div>
-           
             <div className="legacy-container">
                 <div className="legacy-title">
                     Our Legacy
