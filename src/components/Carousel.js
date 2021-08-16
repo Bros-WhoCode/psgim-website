@@ -17,14 +17,14 @@ const CarouselElement = ({index}) => {
         case 0:
             return (
                 <div className="carousel-rankings-wrapper carousel-wrapper">
-                    <div className="carousel-rankings-title carousel-title">
-                        <p>Rankings</p><p>PSGIM</p>
+                    <div className="carousel-rankings-title carousel-title font-head">
+                        <p className="d">Rankings</p><p>PSGIM</p>
                     </div>
                     <div className="carousel-rankings">
-                        <div className="carousel-rank">
+                        <div className="carousel-rank font-head">
                             <CountUp start={1} end={40} delay={0}>
                                 {({ countUpRef }) => (
-                                    <div>
+                                    <div className="font-head">
                                         <span ref={countUpRef} /><sup>th</sup>
                                     </div>
                                 )}
@@ -34,7 +34,7 @@ const CarouselElement = ({index}) => {
                         <div className="carousel-rank">
                             <CountUp start={1} end={46} delay={0}>
                                 {({ countUpRef }) => (
-                                    <div>
+                                    <div className="font-head">
                                         <span ref={countUpRef} /><sup>th</sup>
                                     </div>
                                 )}
@@ -44,7 +44,7 @@ const CarouselElement = ({index}) => {
                         <div className="carousel-rank">
                             <CountUp start={1} end={41} delay={0}>
                                 {({ countUpRef }) => (
-                                    <div>
+                                    <div className="font-head">
                                         <span ref={countUpRef} /><sup>th</sup>
                                     </div>
                                 )}
@@ -58,7 +58,7 @@ const CarouselElement = ({index}) => {
         case 1:
             return (
                 <div className="carousel-discover-wrapper carousel-wrapper">
-                    <div className="carousel-discover-title carousel-title">
+                    <div className="carousel-discover-title carousel-title font-head">
                         <p>Discover</p><p>PSGIM</p>
                     </div>
                     <div className="carousel-discover-content">

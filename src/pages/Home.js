@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home-container">
             <Carousel></Carousel>
             <div className="home-menu">
-                <div className="home-menu-bg-wrapper">
+                <div className="home-menu-bg-wrapper font-head">
                     <div className="home-menu-title">What are you looking for?</div>
                     <div className="home-menu-wrapper">
                         <p>MBA FT</p>
@@ -23,14 +23,14 @@ const Home = () => {
             </div>
            
             <div className="legacy-container">
-                <div className="legacy-title">
+                <div className="legacy-title font-head">
                     Our Legacy
                 </div>
                 <div className="legacy-wrapper">
                         <div className="legacy-content">
                           &emsp;&emsp;&emsp;PSG Institute of Management is a proud member of the PSG and Sons’ Charity- a unique educational trust. 
                         </div>
-                        <div className="legacy-quote">
+                        <div className="legacy-quote font-head">
                             “Let there be charity, so that other people can share my family’s prosperity”
                         </div>
                         <div className="legacy-content">
@@ -41,10 +41,19 @@ const Home = () => {
                         </div>   
                         
                 </div>
-                <button className="legacy-knowmore">
+                <button className="legacy-knowmore font-head">
                     Know More
                 </button>
             </div>
+
+            <footer className="footer-container">
+                <div className="footer-title font-head">
+                    Contact Us
+                </div>
+                <div className="footer-wrapper">
+                    
+                </div>
+            </footer>
         </div>
         </React.Fragment>
     )
