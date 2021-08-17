@@ -516,11 +516,13 @@ sup{
     align-items: center;
     position: absolute;
     opacity: 0;
+    transition: opacity 100ms ease-out 100ms;
 
 }
 
 .carousel-programs-slide-active {
     opacity: 1;
+    transition: opacity 250ms ease-in-out;
 }
 
 .caro-programs-slide-content {
@@ -533,7 +535,13 @@ sup{
     font-size: 24px;
     padding-left: 18px;
     position: relative;
+    opacity: 1;
 }
+
+/* .carousel-programs-slide-active .caro-programs-slide-content p {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+} */
 
 .caro-programs-slide-content p::before {
     content: '';
@@ -547,8 +555,14 @@ sup{
 }
 
 .caro-programs-slide-content h2 {
-    font-size: 80px;
+    font-size: 70px;
+    opacity: 1;
 }
+
+/* .carousel-programs-slide-active .caro-programs-slide-content h2 {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+} */
 
 .caro-programs-slide-content button {
 

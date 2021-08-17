@@ -88,16 +88,16 @@ const Carousel = () => {
             content : "MBA FT (Waste Management and Social Entrepreneurship) is a two-year program designed by the Ministry of Human Resource Development, affiliated to Anna University, Chennai and approved by AICTE, New Delhi."
         },
         {
-            title : "MBA FULL TIME 1",
-            content : "MBA FT (Waste Management and Social Entrepreneurship) is a two-year program designed by the Ministry of Human Resource Development, affiliated to Anna University, Chennai and approved by AICTE, New Delhi."
+            title : "MBA WASTE MANAGEMENT",
+            content : "MBA FT is a two-year program affiliated to Anna University, Chennai, and approved by AICTE, New Delhi. This flagship programme of PSGIM equips students to navigate the business world and prepare them to be industry-ready professionals and entrepreneurs"
         },
         {
-            title : "MBA FULL TIME 2",
-            content : "MBA FT (Waste Management and Social Entrepreneurship) is a two-year program designed by the Ministry of Human Resource Development, affiliated to Anna University, Chennai and approved by AICTE, New Delhi."
+            title : "PhD",
+            content : "MBA PT is a three-year program, affiliated to Anna University, Chennai, and approved by AICTE, New Delhi. This program allows working professionals to gain powerful business/functional Insights, hone managerial and leadership skills and helps accelerate career goals. "
         },
         {
-            title : "MBA FULL TIME 3",
-            content : "MBA FT (Waste Management and Social Entrepreneurship) is a two-year program designed by the Ministry of Human Resource Development, affiliated to Anna University, Chennai and approved by AICTE, New Delhi."
+            title : "MBA PART TIME",
+            content : "PSG Institute of Management offers full time PhD programs that are affiliated to Anna University, Chennai. The Doctoral Scholars selected by the University enrol as full time or part time research scholars at PSG Institute of Management. "
         }
     ]
 
@@ -136,7 +136,7 @@ const Carousel = () => {
         <>
             <div onClick={() => {}} className="carousel-container">
 
-                <div className={`carousel-programs ${isOverlay ? 'carousel-programs-active' : ''}`}>
+                <div onMouseLeave={exitOverlay} onMouseEnter={() => {if(isOverlay){nextProgram(prgIndex)}}} className={`carousel-programs ${isOverlay ? 'carousel-programs-active' : ''}`}>
                     <div className="carousel-programs-slides">
                             {programs.map((child, index) => (
                                 <div className={`carousel-programs-slide ${prgIndex === index ? 'carousel-programs-slide-active' : ''}`}>
@@ -180,17 +180,17 @@ const Carousel = () => {
                 </div>
             </div>
 
-            <div className="home-menu">
+            <div onMouseLeave={exitOverlay} className="home-menu">
             <div className="home-menu-bg-wrapper">
                 <div className="home-menu-title">What are you looking for?</div>
                 <div className="home-menu-wrapper">
-                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(0)}} onMouseLeave={exitOverlay}>MBA FT</p></div>
+                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(0)}}>MBA FT</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(1)}} onMouseLeave={exitOverlay}>MBWM</p></div>
+                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(1)}}>MBWM</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(2)}} onMouseLeave={exitOverlay}>PhD</p></div>
+                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(2)}}>PhD</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(3)}} onMouseLeave={exitOverlay}>PSGIAS Programs</p></div>
+                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(3)}}>PSGIAS Programs</p></div>
                 </div>
             </div>
             </div>
