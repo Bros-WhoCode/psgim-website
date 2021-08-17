@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/psgim-website/static/css/main.514d8a6a.chunk.css",
-    "main.js": "/psgim-website/static/js/main.f9cf709b.chunk.js",
-    "main.js.map": "/psgim-website/static/js/main.f9cf709b.chunk.js.map",
-    "runtime-main.js": "/psgim-website/static/js/runtime-main.2e698d8c.js",
-    "runtime-main.js.map": "/psgim-website/static/js/runtime-main.2e698d8c.js.map",
+    "main.css": "/psgim-website/static/css/main.5cd2760a.chunk.css",
+    "main.js": "/psgim-website/static/js/main.575d3763.chunk.js",
+    "main.js.map": "/psgim-website/static/js/main.575d3763.chunk.js.map",
+    "runtime-main.js": "/psgim-website/static/js/runtime-main.404f4c7d.js",
+    "runtime-main.js.map": "/psgim-website/static/js/runtime-main.404f4c7d.js.map",
     "static/js/2.f2a967af.chunk.js": "/psgim-website/static/js/2.f2a967af.chunk.js",
     "static/js/2.f2a967af.chunk.js.map": "/psgim-website/static/js/2.f2a967af.chunk.js.map",
-    "static/js/3.86528ea3.chunk.js": "/psgim-website/static/js/3.86528ea3.chunk.js",
-    "static/js/3.86528ea3.chunk.js.map": "/psgim-website/static/js/3.86528ea3.chunk.js.map",
+    "static/js/3.7520ffe0.chunk.js": "/psgim-website/static/js/3.7520ffe0.chunk.js",
+    "static/js/3.7520ffe0.chunk.js.map": "/psgim-website/static/js/3.7520ffe0.chunk.js.map",
     "index.html": "/psgim-website/index.html",
-    "static/css/main.514d8a6a.chunk.css.map": "/psgim-website/static/css/main.514d8a6a.chunk.css.map",
+    "static/css/main.5cd2760a.chunk.css.map": "/psgim-website/static/css/main.5cd2760a.chunk.css.map",
     "static/js/2.f2a967af.chunk.js.LICENSE.txt": "/psgim-website/static/js/2.f2a967af.chunk.js.LICENSE.txt",
     "static/media/HDFC.3b9b512b.png": "/psgim-website/static/media/HDFC.3b9b512b.png",
     "static/media/ITC1.e5175b4b.png": "/psgim-website/static/media/ITC1.e5175b4b.png",
@@ -49,9 +49,9 @@
     "static/media/zoho.43e6c119.png": "/psgim-website/static/media/zoho.43e6c119.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e698d8c.js",
+    "static/js/runtime-main.404f4c7d.js",
     "static/js/2.f2a967af.chunk.js",
-    "static/css/main.514d8a6a.chunk.css",
-    "static/js/main.f9cf709b.chunk.js"
+    "static/css/main.5cd2760a.chunk.css",
+    "static/js/main.575d3763.chunk.js"
   ]
 }
