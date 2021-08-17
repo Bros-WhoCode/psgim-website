@@ -38,6 +38,10 @@ import Logo34 from "../assets/logos/tata.png";
 
 const Placements = () => {
     return (
+        <div>
+            <div className="placement-title font-head ">
+                PLACEMENT   
+            </div>
         	<div class="brand-carousel section-padding owl-carousel">
         		<div class="single-logo"><img alt="" src={Logo00}/> </div>
         		<div class="single-logo"><img alt="" src={Logo01}/> </div>
@@ -75,6 +79,7 @@ const Placements = () => {
                 <div class="single-logo"><img alt="" src={Logo33}/> </div>
                 <div class="single-logo"><img alt="" src={Logo34}/> </div>
         	</div>
+            </div>
     )
 }
 

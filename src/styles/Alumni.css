@@ -1,0 +1,23 @@
+
+.alumni-title{
+     
+    font-size: 60px;
+    font-weight: bolder;
+    display: grid;
+    place-items: center;
+    margin-top:5%;
+    margin-bottom: 5%;
+    color: var(--blue-001);
+    text-shadow: 3px 3px 0px var(--blue-002);
+    
+}
+.alumni-container {
+    padding: 20px 20%;
+    margin-top: 40px;
+}
+
+
+.alumni-content{
+    font-size: 20px;
+    text-align: justify;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
-
 import Carousel from '../components/Carousel';
 import Placements from '../components/Placements';
+import Alumni from "../components/Alumni";
 import '../styles/Home.css'
 const Home = () => {
     return (
@@ -32,6 +32,7 @@ const Home = () => {
             </div>
 
             <Placements/>
+            <Alumni/>
 
             <footer className="footer-container">
                 <div className="footer-title font-head">
