@@ -141,9 +141,9 @@ const Carousel = () => {
                             {programs.map((child, index) => (
                                 <div className={`carousel-programs-slide ${prgIndex === index ? 'carousel-programs-slide-active' : ''}`}>
                                     <div className="caro-programs-slide-content">
-                                        <h2>{child.title}</h2>
+                                        <h2 className="font-head">{child.title}</h2>
                                         <p>{child.content}</p>
-                                        <button>Know more</button>
+                                        <button className="font-head">Know more</button>
                                     </div>
                                 </div>
                             ))}
@@ -182,15 +182,15 @@ const Carousel = () => {
 
             <div onMouseLeave={exitOverlay} className="home-menu">
             <div className="home-menu-bg-wrapper">
-                <div className="home-menu-title">What are you looking for?</div>
+                <div className="home-menu-title font-head">What are you looking for?</div>
                 <div className="home-menu-wrapper">
-                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(0)}}>MBA FT</p></div>
+                    <div className="home-menu-programs font-head"><p onMouseEnter={() => {nextProgram(0)}}>MBA FT</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(1)}}>MBWM</p></div>
+                    <div className="home-menu-programs font-head"><p onMouseEnter={() => {nextProgram(1)}}>MBWM</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(2)}}>PhD</p></div>
+                    <div className="home-menu-programs font-head"><p onMouseEnter={() => {nextProgram(2)}}>PhD</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(3)}}>PSGIAS Programs</p></div>
+                    <div className="home-menu-programs font-head"><p onMouseEnter={() => {nextProgram(3)}}>PSGIAS Programs</p></div>
                 </div>
             </div>
             </div>

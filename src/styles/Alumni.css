@@ -4,20 +4,40 @@
     font-size: 60px;
     font-weight: bolder;
     display: grid;
-    place-items: center;
+    /* place-items: center; */
     margin-top:5%;
     margin-bottom: 5%;
     color: var(--blue-001);
     text-shadow: 3px 3px 0px var(--blue-002);
     
 }
+
 .alumni-container {
-    padding: 20px 20%;
+    padding: 60px 20%;
     margin-top: 40px;
+    background: var(--blue-003);
+}
+
+.alumni-wrapper{
+    padding-bottom: 60px;
 }
 
 
 .alumni-content{
     font-size: 20px;
     text-align: justify;
+}
+
+.alumni-knowmore{
+    padding: 5px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid var(--blue-001);
+    color: var(--blue-001);
+}
+
+.alumni-knowmore:hover {
+    background: var(--blue-002);
 }

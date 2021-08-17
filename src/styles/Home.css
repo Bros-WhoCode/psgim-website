@@ -51,7 +51,6 @@
     width: 80%;
     margin: 0 auto;
     color: var(--blue-001);
-     
 }
 
 .legacy-content{
@@ -164,13 +163,14 @@
     padding: 5px;
     border-bottom: 1px solid var(--white-001);
     background: transparent;
-    width: 60%;
+    width: 100%;
     margin: 10px 0;
     color: var(--white-001);
 }
 
 .footer-form-div input{
     margin: 10px 5px;
+    flex: 1;
 }
 
 .footer-form input:focus{

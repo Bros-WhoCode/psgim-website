@@ -40,7 +40,7 @@ const Placements = () => {
     return (
         <div>
             <div className="placement-title font-head ">
-                PLACEMENT   
+                Placement 
             </div>
         	<div class="brand-carousel section-padding owl-carousel">
         		<div class="single-logo"><img alt="" src={Logo00}/> </div>

@@ -31,8 +31,8 @@ const Home = () => {
                 </button>
             </div>
 
-            <Placements/>
             <Alumni/>
+            <Placements/>
 
             <footer className="footer-container">
                 <div className="footer-title font-head">
