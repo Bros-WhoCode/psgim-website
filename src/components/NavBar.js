@@ -2,6 +2,7 @@ import React from 'react'
 import NavLink from './NavLink';
 import Logo from '../assets/psgim_logo.png'
 import '../styles/Nav.css';
+import psgLogo from '../assets/psglogo.png';
 
 const Nav = () => {
 
@@ -41,12 +42,12 @@ const Nav = () => {
       <nav className="navbar-container navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src={Logo} alt="Logo" />
-            {/* <div className="logo-text">
+            <img src={psgLogo} alt="Logo" />
+            <div className="logo-text">
               <p className="logo-upper">PSG Institute of Management</p>
               <hr />
               <p className="logo-bottom">PSG College of Technology</p>
-            </div> */}
+            </div>
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
