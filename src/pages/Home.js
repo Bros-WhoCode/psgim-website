@@ -7,21 +7,6 @@ const Home = () => {
         <React.Fragment>
         <div className="home-container">
             <Carousel></Carousel>
-            <div className="home-menu">
-                <div className="home-menu-bg-wrapper font-head">
-                    <div className="home-menu-title">What are you looking for?</div>
-                    <div className="home-menu-wrapper">
-                        <p>MBA FT</p>
-                        <span></span>
-                        <p>MBWM</p>
-                        <span></span>
-                        <p>PhD</p>
-                        <span></span>
-                        <p>PSGIAS Programs</p>
-                    </div>
-                </div>
-            </div>
-           
             <div className="legacy-container">
                 <div className="legacy-title font-head">
                     Our Legacy
