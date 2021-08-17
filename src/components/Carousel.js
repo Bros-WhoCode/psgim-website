@@ -80,6 +80,7 @@ const Carousel = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const [prgIndex, setPrgIndex] = useState(0);
+    const [isOverlay, setIsOverlay] = useState(false);
     
     const programs = [
         {
@@ -112,6 +113,15 @@ const Carousel = () => {
 
     }
 
+    const nextProgram = (index) => {
+        setPrgIndex(index);
+        setIsOverlay(true);
+    }
+
+    const exitOverlay = () => {
+        setIsOverlay(false);
+    }
+
     useEffect(() => {
 
         const intervalId = setInterval(nextSlide, 5500);
@@ -126,7 +136,7 @@ const Carousel = () => {
         <>
             <div onClick={() => {}} className="carousel-container">
 
-                <div className="carousel-programs">
+                <div className={`carousel-programs ${isOverlay ? 'carousel-programs-active' : ''}`}>
                     <div className="carousel-programs-slides">
                             {programs.map((child, index) => (
                                 <div className={`carousel-programs-slide ${prgIndex === index ? 'carousel-programs-slide-active' : ''}`}>
@@ -140,7 +150,7 @@ const Carousel = () => {
                     </div>
                 </div>
 
-                <div className="carousel-slides">
+                <div className={`carousel-slides ${isOverlay ? 'carousel-slides-hidden' : ''}`}>
 
                     {sliderData.map((child, index) => {
 
@@ -174,13 +184,13 @@ const Carousel = () => {
             <div className="home-menu-bg-wrapper">
                 <div className="home-menu-title">What are you looking for?</div>
                 <div className="home-menu-wrapper">
-                    <div className="home-menu-programs"><p>MBA FT</p></div>
+                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(0)}} onMouseLeave={exitOverlay}>MBA FT</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p>MBWM</p></div>
+                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(1)}} onMouseLeave={exitOverlay}>MBWM</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p>PhD</p></div>
+                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(2)}} onMouseLeave={exitOverlay}>PhD</p></div>
                     <span></span>
-                    <div className="home-menu-programs"><p>PSGIAS Programs</p></div>
+                    <div className="home-menu-programs"><p onMouseEnter={() => {nextProgram(3)}} onMouseLeave={exitOverlay}>PSGIAS Programs</p></div>
                 </div>
             </div>
             </div>

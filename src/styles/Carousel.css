@@ -10,6 +10,7 @@
 
     height: 100%;
     position: relative;
+    transition: filter 500ms ease-out;
 
 }
 
@@ -375,7 +376,6 @@ sup{
     color: var(--white-001);
     font-size: 30px;
     margin-bottom: 10px;
-    font-family: var(--oswald-font);
     text-shadow: 3px 3px 0px var(--blue-001);
 }
 
@@ -413,7 +413,6 @@ sup{
 .home-menu-programs p {
 
     font-size: 27px;
-    font-family: var(--oswald-font);
     text-align: center;
     z-index: 5;
     width: fit-content;
@@ -425,7 +424,7 @@ sup{
 
     content: '';
     position: absolute;
-    bottom: -10px;
+    bottom: -5px;
 
     transform-origin: 50% 0%;
 
@@ -474,8 +473,11 @@ sup{
 
 /* ----------------------------------------------------------------------------------------- */
 
-.carousel-slides {
+.carousel-slides-hidden {
+
     filter: blur(8px);
+    transition: filter 100ms ease-in;
+
 }
 
 .carousel-programs {
@@ -487,7 +489,15 @@ sup{
     background: rgba(0, 0, 0, .5);
 
     color: white;
+    opacity: 0;
 
+    transition: opacity 150ms ease-in-out;
+
+}
+
+.carousel-programs-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 100ms;
 }
 
 .carousel-programs-slides {
@@ -533,6 +543,7 @@ sup{
     height: 100%;
     width: 5px;
     background: var(--blue-002);
+
 }
 
 .caro-programs-slide-content h2 {
@@ -544,7 +555,6 @@ sup{
     padding: 5px 20px;
     margin-top: 20px;
     font-size: 20px;
-    font-family: var(--oswald-font);
     outline: none;
     border: 2px solid white;
     color: white;
