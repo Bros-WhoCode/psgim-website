@@ -489,17 +489,9 @@ sup{
 
 /* ----------------------------------------------------------------------------------------- */
 
-<<<<<<< HEAD
-.carousel-slides {
-    -webkit-filter: blur(8px);
-            filter: blur(8px);
-=======
 .carousel-slides-hidden {
-
     filter: blur(8px);
     transition: filter 100ms ease-in;
-
->>>>>>> 564c1e06bcd61315084755035ffb0a5ca99905bf
 }
 
 .carousel-programs {
