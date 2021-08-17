@@ -51,7 +51,26 @@ const Home = () => {
                     Contact Us
                 </div>
                 <div className="footer-wrapper">
-                    
+                    <div className="footer-map"></div>
+                    <div className="footer-content">
+                        <h4 className="font-head">PHONE</h4>
+                        <p>0422-430 4400</p>
+                        <p>0422-430 4407</p>
+                        <p>admissions@psgim.ac.in</p>
+                        <p className="footer-hr"></p>
+                        <h4 className="font-head">ADDRESS</h4>
+                        <p>PSG Institute of Management</p>
+                        <p>Avinashi Road</p>
+                        <p>Peelamedu</p>
+                        <p>Coimbatore - 641 004</p>
+                    </div>
+                    <div className="footer-form">
+                        <form action="">
+                            <input type="text" id="footer-form-name" placeholder="Enter Name"/>
+                            <input type="email" id="footer-form-email" placeholder="Enter Email"/>
+                            <input type="text" id="footer-form-name" placeholder="Enter Phone number"/>
+                        </form>
+                    </div>
                 </div>
             </footer>
         </div>
