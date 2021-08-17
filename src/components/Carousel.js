@@ -17,10 +17,10 @@ const CarouselElement = ({index}) => {
             return (
                 <div className="carousel-rankings-wrapper carousel-wrapper">
                     <div className="carousel-rankings-title carousel-title font-head">
-                        <p className="d">Rankings</p><p>PSGIM</p>
+                        <p>Rankings</p><p>PSGIM</p>
                     </div>
                     <div className="carousel-rankings">
-                        <div className="carousel-rank font-head">
+                        <div className="carousel-rank">
                             <CountUp start={1} end={40} delay={0}>
                                 {({ countUpRef }) => (
                                     <div className="font-head">
