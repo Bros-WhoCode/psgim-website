@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Carousel from '../components/Carousel';
+import Placements from '../components/Placements';
 import '../styles/Home.css'
 const Home = () => {
     return (
@@ -31,6 +32,8 @@ const Home = () => {
                 </button>
             </div>
 
+            <Placements/>
+
             <footer className="footer-container">
                 <div className="footer-title font-head">
                     Contact Us
@@ -50,10 +53,15 @@ const Home = () => {
                         <p>Coimbatore - 641 004</p>
                     </div>
                     <div className="footer-form">
+                        <h4 className="font-head">GET IN TOUCH</h4>
                         <form action="">
                             <input type="text" id="footer-form-name" placeholder="Enter Name"/>
-                            <input type="email" id="footer-form-email" placeholder="Enter Email"/>
-                            <input type="text" id="footer-form-name" placeholder="Enter Phone number"/>
+                            <div className="footer-form-div">
+                                <input type="email" id="footer-form-email" placeholder="Enter Email"/>
+                                <input type="text" id="footer-form-name" placeholder="Enter Phone number"/>
+                            </div>
+                            <textarea name="" id="" cols="30" rows="5" placeholder="Enter queries here."></textarea>
+                            <button type="submit" id="footer=form-btn" className="font-head">Post</button>
                         </form>
                     </div>
                 </div>

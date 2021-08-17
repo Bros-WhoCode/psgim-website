@@ -70,7 +70,7 @@
 }
 
 .legacy-knowmore:hover{
-    background: var(--blue-002);
+    background: var(--blue-003);
 }
 
 @media only screen and (max-width: 992px) {
@@ -136,6 +136,65 @@
 }
 
 .footer-form {
-    flex: 2.5;
+    flex: 1.5;
+    margin: 0 30px;
+}
+
+.footer-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form-div{
+    display: flex;  
+}
+
+.footer-form input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid var(--white-001);
+    background: transparent;
+    width: 60%;
+    margin: 10px 0;
+    color: var(--white-001);
+}
+
+.footer-form-div input{
+    margin: 10px 5px;
+}
+
+.footer-form input:focus{
+    border-bottom: 1.5px solid var(--white-001);
+    color: var(--white-001);
+}
+
+.footer-form button{
+    padding: 5px 20px;
+    margin-top: 20px;
+    width: 300px;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid var(--white-001);
+    color: var(--white-001);
+}
+
+.footer-form button:hover{
+    background:rgba(255, 255, 255, .3);
+}
+
+.footer-form textarea::placeholder{
+    color: var(--blue-001);
+    padding: 10px;
+}
+
+.footer-form textarea:focus {
+    color: var(--blue-001);
+}
+
+.footer-form textarea:focus::placeholder{
+    color: var(--blue-001);
+    padding: 10px;
 }
 
